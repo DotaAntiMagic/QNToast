@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDD024681FADDB7500A242BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD024671FADDB7500A242BA /* AppDelegate.m */; };
+		FDD0246B1FADDB7500A242BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD0246A1FADDB7500A242BA /* ViewController.m */; };
+		FDD0246E1FADDB7500A242BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD0246C1FADDB7500A242BA /* Main.storyboard */; };
+		FDD024701FADDB7500A242BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD0246F1FADDB7500A242BA /* Assets.xcassets */; };
+		FDD024731FADDB7500A242BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD024711FADDB7500A242BA /* LaunchScreen.storyboard */; };
+		FDD024761FADDB7500A242BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD024751FADDB7500A242BA /* main.m */; };
+		FDD024881FADDDC000A242BA /* QNToast.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD024861FADDDC000A242BA /* QNToast.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDD024631FADDB7400A242BA /* QNToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QNToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD024661FADDB7500A242BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDD024671FADDB7500A242BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDD024691FADDB7500A242BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDD0246A1FADDB7500A242BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDD0246D1FADDB7500A242BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDD0246F1FADDB7500A242BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDD024721FADDB7500A242BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDD024741FADDB7500A242BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD024751FADDB7500A242BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDD024861FADDDC000A242BA /* QNToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNToast.m; sourceTree = "<group>"; };
+		FDD024871FADDDC000A242BA /* QNToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNToast.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDD024601FADDB7400A242BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDD0245A1FADDB7400A242BA = {
+			isa = PBXGroup;
+			children = (
+				FDD024651FADDB7400A242BA /* QNToast */,
+				FDD024641FADDB7400A242BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDD024641FADDB7400A242BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDD024631FADDB7400A242BA /* QNToast.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDD024651FADDB7400A242BA /* QNToast */ = {
+			isa = PBXGroup;
+			children = (
+				FDD024851FADDDC000A242BA /* QNToast */,
+				FDD024661FADDB7500A242BA /* AppDelegate.h */,
+				FDD024671FADDB7500A242BA /* AppDelegate.m */,
+				FDD024691FADDB7500A242BA /* ViewController.h */,
+				FDD0246A1FADDB7500A242BA /* ViewController.m */,
+				FDD0246C1FADDB7500A242BA /* Main.storyboard */,
+				FDD0246F1FADDB7500A242BA /* Assets.xcassets */,
+				FDD024711FADDB7500A242BA /* LaunchScreen.storyboard */,
+				FDD024741FADDB7500A242BA /* Info.plist */,
+				FDD024751FADDB7500A242BA /* main.m */,
+			);
+			path = QNToast;
+			sourceTree = "<group>";
+		};
+		FDD024851FADDDC000A242BA /* QNToast */ = {
+			isa = PBXGroup;
+			children = (
+				FDD024861FADDDC000A242BA /* QNToast.m */,
+				FDD024871FADDDC000A242BA /* QNToast.h */,
+			);
+			path = QNToast;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDD024621FADDB7400A242BA /* QNToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD024791FADDB7500A242BA /* Build configuration list for PBXNativeTarget "QNToast" */;
+			buildPhases = (
+				FDD0245F1FADDB7400A242BA /* Sources */,
+				FDD024601FADDB7400A242BA /* Frameworks */,
+				FDD024611FADDB7400A242BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QNToast;
+			productName = QNToast;
+			productReference = FDD024631FADDB7400A242BA /* QNToast.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDD0245B1FADDB7400A242BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "祁宁";
+				TargetAttributes = {
+					FDD024621FADDB7400A242BA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FDD0245E1FADDB7400A242BA /* Build configuration list for PBXProject "QNToast" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDD0245A1FADDB7400A242BA;
+			productRefGroup = FDD024641FADDB7400A242BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDD024621FADDB7400A242BA /* QNToast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDD024611FADDB7400A242BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD024731FADDB7500A242BA /* LaunchScreen.storyboard in Resources */,
+				FDD024701FADDB7500A242BA /* Assets.xcassets in Resources */,
+				FDD0246E1FADDB7500A242BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDD0245F1FADDB7400A242BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD0246B1FADDB7500A242BA /* ViewController.m in Sources */,
+				FDD024761FADDB7500A242BA /* main.m in Sources */,
+				FDD024881FADDDC000A242BA /* QNToast.m in Sources */,
+				FDD024681FADDB7500A242BA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDD0246C1FADDB7500A242BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD0246D1FADDB7500A242BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDD024711FADDB7500A242BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD024721FADDB7500A242BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDD024771FADDB7500A242BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDD024781FADDB7500A242BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDD0247A1FADDB7500A242BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QNToast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xian.QNToast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDD0247B1FADDB7500A242BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QNToast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xian.QNToast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDD0245E1FADDB7400A242BA /* Build configuration list for PBXProject "QNToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD024771FADDB7500A242BA /* Debug */,
+				FDD024781FADDB7500A242BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD024791FADDB7500A242BA /* Build configuration list for PBXNativeTarget "QNToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD0247A1FADDB7500A242BA /* Debug */,
+				FDD0247B1FADDB7500A242BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDD0245B1FADDB7400A242BA /* Project object */;
+}
